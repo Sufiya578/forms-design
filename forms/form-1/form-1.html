@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <style>
+      body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      form {
+        justify-content: center;
+        align-items: normal;
+        background-color: #e4e4e4e4;
+        padding: 25px;
+        display: flex;
+        width: 100%;
+        height: 200px;
+        flex-direction: column;
+      }
+      label{
+        margin-top: 15px;
+        margin-bottom: 10px;
+      }
+      input[type="submit"]{
+        margin: 15px 0;
+        background-color: #000;
+        color: #fff;
+        font-size: 16px;
+        padding: 8px 15px;       
+        display: block;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form">
+      <form>
+        <label for="fname">Full Name</label>
+        <input type="text" name="fname" placeholder="Your Fullname" />
+        <label for="password">Password</label>
+        <input type="password" name="password" />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
